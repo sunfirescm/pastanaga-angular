@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  backendUrl: 'https://cms.terralego.com/backend-sandbox'
+  backendUrl: 'https://demo.plone.io/backend'
 };
