@@ -162,7 +162,7 @@
     // read-only
     .o-field-control:read-only:not(select) {
         box-shadow: none;
-        background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="12" height="3" viewBox="0 0 12 3"><circle cx="1.5" cy="1.5" r="1.5" fill="%23'+str_slice(#{$gray-light}, 2)+'" fill-rule="evenodd"/></svg>');
+        //background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="12" height="3" viewBox="0 0 12 3"><circle cx="1.5" cy="1.5" r="1.5" fill="%23'+str_slice(#{$gray-light}, 2)+'" fill-rule="evenodd"/></svg>');
         background-size: 5px 1px;
         background-repeat: repeat-x;
         background-position: bottom left;
