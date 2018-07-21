@@ -4,16 +4,16 @@ legend {
   @include font-size(xs,xs,xs);
   color: darken($green-dark,12);
   background: $white-smoke;
-  padding: rythm(1) rythm(1.5);
-  margin-left: - rythm(1.5);
-  margin-right: - rythm(1.5);
+  padding: rhythm(1) rhythm(1.5);
+  margin-left: - rhythm(1.5);
+  margin-right: - rhythm(1.5);
   text-transform: uppercase;
 }
 
 
 .o-field {
   position: relative;
-  margin-bottom: rythm(1.5);
+  margin-bottom: rhythm(1.5);
 
   // o-field-help
   &-help {
@@ -21,7 +21,7 @@ legend {
     color: $gray;
     font-weight: $font-weight-light;
     display: block;
-    margin-top:rythm(.5);
+    margin-top:rhythm(.5);
   }
   &-control:disabled ~ &-help {
     color: $gray-pale;
@@ -33,7 +33,7 @@ legend {
 fieldset.o-fieldset-group {
   & > legend {
     @include font-size(xs,xs,xs);
-    margin-bottom: rythm(.75);
+    margin-bottom: rhythm(.75);
     text-transform: uppercase;
     margin-left: 0;
     margin-right: 0;
@@ -45,7 +45,7 @@ fieldset.o-fieldset-group {
     margin-bottom: 0;
   }
   & > .o-field.o-field-toggle:not(:last-child) {
-    margin-bottom: rythm(1);
+    margin-bottom: rhythm(1);
   }
 }
 fieldset > pa-button.o-field-button-right {

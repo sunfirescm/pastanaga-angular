@@ -34,8 +34,8 @@ h6, .s      { @include font-size(s,m,s); }        //13
 //
 
 hr {
-  margin-top: rythm(1);
-  margin-bottom: rythm(1);
+  margin-top: rhythm(1);
+  margin-bottom: rhythm(1);
   border: 0;
   border-top: 1px solid $gray-pale;
 }
@@ -53,7 +53,7 @@ small,
 
 mark,
 .mark {
-  padding: 0 rythm(.25);
+  padding: 0 rhythm(.25);
   background-color: $yellow-light;
   border-bottom: 2px solid rgba(239, 233, 9, 0.95);
   border-top: 1px solid rgba(239, 233, 9, 0.95);
@@ -89,7 +89,7 @@ del,
 //
 
 ul, ol, menu, dir {
-    padding-left: rythm(2);
+    padding-left: rhythm(2);
 }
 /*
 .list-unstyled {
@@ -139,19 +139,19 @@ abbr, abbr[title], abbr[data-original-title] {
 blockquote,
 .blockquote {
   margin:0;
-  margin-bottom: rythm(1);
+  margin-bottom: rhythm(1);
   @include font-size(l,l,m);
-  padding-left: rythm(1);
+  padding-left: rhythm(1);
   position: relative;
   &::before {
     content: "";
-    width: rythm(.25);
+    width: rhythm(.25);
     height: 100%;
     position: absolute;
     background: $sky-dark;
-    border-radius: rythm(.5);
-    margin-left: - rythm(1);
-  } 
+    border-radius: rhythm(.5);
+    margin-left: - rhythm(1);
+  }
 }
 
 

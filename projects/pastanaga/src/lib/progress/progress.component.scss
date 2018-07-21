@@ -53,9 +53,9 @@
     display: block;
     position: relative;
     width: 100%;
-    height: rythm(.25);
+    height: rhythm(.25);
     appearance: none;
-    border-radius: rythm(.25);
+    border-radius: rhythm(.25);
     overflow: hidden;
 
     &:not([value]):not([aria-valuenow]), &.o-progress-indeterminate { //indeterminate

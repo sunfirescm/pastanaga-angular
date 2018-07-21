@@ -4,7 +4,7 @@
     ::ng-deep pa-button {
         .o-button {
             float: left;
-            margin: - rythm(.5) 0 - rythm(.5) - rythm(2.5);
+            margin: - rhythm(.5) 0 - rhythm(.5) - rhythm(2.5);
             transform: rotate(0deg);
         }
         .o-button[aria-expanded="true"] {
@@ -14,7 +14,7 @@
 }
 
 .o-field-sublist {
-    margin-left: 30px;
+    margin-left: rhythm(3);
     padding: 0;
     list-style: none;
     display: block;

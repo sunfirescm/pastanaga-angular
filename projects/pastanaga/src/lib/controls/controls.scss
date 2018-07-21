@@ -24,23 +24,23 @@
             font-weight: $font-weight-regular;
             font-size: inherit;
             transform: translateY(0);
-            margin-bottom: rythm(1);
+            margin-bottom: rhythm(1);
             color: $gray-blacky;
             transform: none !important;
             font-size: inherit !important;
             & > span {
-                margin-left: rythm(.5);
+                margin-left: rhythm(.5);
                 & > ::ng-deep pa-icon svg {
-                    width: rythm(1.5);
-                    height: rythm(1.5);
-                    margin-right: rythm(.5);
+                    width: rhythm(1.5);
+                    height: rhythm(1.5);
+                    margin-right: rhythm(.5);
                     line-height: 0;
                     display: inline;
                     fill: $gray-dark;
                     top: 1px;
                     position: relative;
-                    margin-top: - rythm(.25);
-                    margin-bottom: - rythm(.25);
+                    margin-top: - rhythm(.25);
+                    margin-bottom: - rhythm(.25);
                 }
             }
         }
@@ -57,8 +57,8 @@
             margin-top: 1px;
             display: inline-block;
             vertical-align: text-top;
-            width: rythm(1.5);
-            height: rythm(1.5);
+            width: rhythm(1.5);
+            height: rhythm(1.5);
             background: $white;
             border: 1px solid $brown;
             border-radius: 0;
@@ -94,32 +94,32 @@
             left: 0;
             top: 0;
             margin-top: 1px;
-            width: rythm(1.5);
-            height: rythm(1.5);
+            width: rhythm(1.5);
+            height: rhythm(1.5);
             transition: all .175s ease-in;
             background-position: center center;
-            background-size: rythm(.5) rythm(.5);
+            background-size: rhythm(.5) rhythm(.5);
             opacity: 0;
             background-repeat: no-repeat;
         }
         &:checked + .o-field-label::after {
             background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><polygon fill="%23'+str_slice(#{$blue}, 2)+'" points="29.021 17.021 11.021 17.021 11.021 9.021 7.021 9.021 7.021 21.021 29.021 21.021" transform="rotate(-45 18.02 15.02)"/></g></svg>');
-            background-size: rythm(2) rythm(2);
+            background-size: rhythm(2) rhythm(2);
             opacity: 1;
         }
         &:checked:disabled + .o-field-label::after {
             background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><polygon fill="%23'+str_slice(#{$gray-pale}, 2)+'" points="29.021 17.021 11.021 17.021 11.021 9.021 7.021 9.021 7.021 21.021 29.021 21.021" transform="rotate(-45 18.02 15.02)"/></g></svg>');
-            background-size: rythm(1.5) rythm(1.5);
+            background-size: rhythm(1.5) rhythm(1.5);
             opacity: 1;
         }
         &:indeterminate + .o-field-label::after {
             background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><polygon fill="%23'+str_slice(#{$blue}, 2)+'" fill-rule="evenodd" points="7 19 29 19 29 16 7 16"/></svg>');
-            background-size: rythm(2) rythm(2);
+            background-size: rhythm(2) rhythm(2);
             opacity: 1;
         }
         &:indeterminate:disabled + .o-field-label::after {
             background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><polygon fill="%23'+str_slice(#{$gray-pale}, 2)+'" fill-rule="evenodd" points="7 19 29 19 29 16 7 16"/></svg>');
-            background-size: rythm(1.5) rythm(1.5);
+            background-size: rhythm(1.5) rhythm(1.5);
             opacity: 1;
         }
 
@@ -138,9 +138,9 @@
             background: $white-smoke;
         }
         & ~ .o-field-help {
-            margin-left: rythm(2);
-            margin-top: - rythm(1);
-            margin-bottom: rythm(.5);
+            margin-left: rhythm(2);
+            margin-top: - rhythm(1);
+            margin-bottom: rhythm(.5);
             display: block;
         }
     }
@@ -185,7 +185,7 @@
 .o-field-group {
     .o-button {
         float:left;
-        margin: - rythm(.5) 0 - rythm(.5) - rythm(2.5);
+        margin: - rhythm(.5) 0 - rhythm(.5) - rhythm(2.5);
         transform: rotate(0deg);
     }
     .o-button[aria-expanded="true"] {

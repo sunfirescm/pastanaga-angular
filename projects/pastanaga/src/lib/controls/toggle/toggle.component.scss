@@ -6,9 +6,9 @@
 
 
 .o-field-divider {
-  padding: rythm(.5) 0;
+  padding: rhythm(.5) 0;
   &:not(.first-in-group).o-field-toggle {
-    margin-top: rythm(1.5);
+    margin-top: rhythm(1.5);
   }
   &:not(.last-in-group)::after {
     width: 100%;
@@ -17,7 +17,7 @@
     position: absolute;
     content: "";
     left: 0;
-    bottom: - rythm(.25)*3;
+    bottom: - rhythm(.25)*3;
   }
 }
 
@@ -31,7 +31,7 @@
     float:right;
     position: relative;
     width: 32px;
-    height: 18px;
+    height: rhythm(1.5);
     opacity: 0;
     margin:0;
     padding: 0;
@@ -47,13 +47,13 @@
   }
   .o-field-control-thumb {
     width: 32px;
-    height: 6px;
+    height: rhythm(.5);
     background: $blue;
     position: absolute;
-    margin-top: 6px;
+    margin-top: rhythm(.5);
     right: 0;
     z-index: 0;
-    border-radius: 3px;
+    border-radius: border-radius(m);
   }
   .o-field-control:not(:checked) + .o-field-control-thumb::before {
     border-color: $brown;
@@ -116,7 +116,7 @@
   .o-field-control ~ .o-field-output {
     float:right;
     margin-top: 1px;
-    margin-right: rythm(1);
+    margin-right: rhythm(1);
     text-transform: uppercase;
     color: $gray;
     position: relative;

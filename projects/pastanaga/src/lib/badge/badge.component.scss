@@ -3,9 +3,9 @@
 .o-badge {
     display: inline-block;
     @include font-size(m, l, m);
-    padding: rythm(.25) rythm(.5);
-    margin-left: - rythm(.5);
-    margin-right: rythm(1);
+    padding: rhythm(.25) rhythm(.5);
+    margin-left: - rhythm(.5);
+    margin-right: rhythm(1);
     font-weight: $font-weight-light;
     text-align: center;
     white-space: nowrap;
@@ -21,16 +21,16 @@
     }
 
     & ::ng-deep pa-button button {
-        margin: (- rythm(1)) (- rythm(.25));
+        margin: (- rhythm(1)) (- rhythm(.25));
     }
     & ::ng-deep pa-button:last-child button {
-        margin-right: (- rythm(.5));
+        margin-right: (- rhythm(.5));
     }
     & .o-avatar-small {
-        margin-top: (- rythm(.25)*5.5);
-        margin-bottom: (- rythm(.25)*4.5);
-        margin-left: (- rythm(.25)*3);
-        margin-right: (rythm(.5));
+        margin-top: (- rhythm(.25)*5.5);
+        margin-bottom: (- rhythm(.25)*4.5);
+        margin-left: (- rhythm(.25)*3);
+        margin-right: (rhythm(.5));
         & img {
             left: 0;
         }
@@ -42,10 +42,10 @@
 
 .o-badge-small {
     @include font-size(xs, m, xs);
-    padding: rythm(.25)/2 rythm(.25);
+    padding: rhythm(.25)/2 rhythm(.25);
     &.o-badge-accent {
-        padding-right: rythm(1.5)/3;
-        padding-left: rythm(1.5)/3;
+        padding-right: rhythm(1.5)/3;
+        padding-left: rhythm(1.5)/3;
     }
 }
 
@@ -55,7 +55,7 @@
 }
 
 .o-badge .o-badge-ellipsis {
-    max-width: 180px;
+    max-width: rhythm(1)*15;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -65,8 +65,8 @@
 }
 
 .o-badge-accent {
-    padding-right: rythm(1.5)/2;
-    padding-left: rythm(1.5)/2;
+    padding-right: rhythm(1.5)/2;
+    padding-left: rhythm(1.5)/2;
     border-radius: 100px;
 }
 
