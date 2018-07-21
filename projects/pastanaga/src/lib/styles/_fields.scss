@@ -4,10 +4,10 @@ legend {
   @include font-size(xs,xs,xs);
   color: darken($green-dark,12);
   background: $white-smoke;
-  padding: rhythm(1) rhythm(1.5);
-  margin-left: - rhythm(1.5);
-  margin-right: - rhythm(1.5);
+  padding: rhythm(1) 0;
+  box-shadow: rhythm(1.5) 0 0 $white-smoke, - rhythm(1.5) 0 0 $white-smoke,;
   text-transform: uppercase;
+
 }
 
 
