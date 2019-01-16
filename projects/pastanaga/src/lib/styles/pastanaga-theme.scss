@@ -1,0 +1,42 @@
+@import "variables";
+
+legend {
+    @include font-size(xs,xs,xs);
+    color: darken($green-dark,12);
+    background: $white-smoke;
+    padding: rythm(1) rythm(1.5);
+    margin-left: - rythm(1.5);
+    margin-right: - rythm(1.5);
+    text-transform: uppercase;
+}
+
+fieldset.pa-fieldset-group {
+    & > legend {
+        margin-bottom: rythm(.75);
+        text-transform: uppercase;
+        margin-left: 0;
+        margin-right: 0;
+        background: none;
+        color: $gray;
+        padding: 0;
+    }
+}
+
+.pa-field-text,
+.pa-field-email,
+.pa-field-password,
+.pa-field-number,
+.pa-field-tel,
+.pa-field-url,
+.pa-field-search,
+.pa-field-date,
+.pa-field-datetime-local,
+.pa-field-month,
+.pa-field-time,
+.pa-field-week,
+.pa-field-select,
+.pa-field-textarea {
+    .pa-field-label {
+        text-transform: uppercase;
+    }
+}
